@@ -1,18 +1,15 @@
 {
-    "name": "abdielbytes/books",
-    "description": "A simple CRUD application for managing a collection of books.",
+    "name": "phpsandbox/standard",
+    "description": "Official scaffold for Standard notebooks on PHPSandbox",
     "type": "project",
     "license": "MIT",
-    "require": {
-        "php": "^7.2",
-        "ext-mysqli": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "App\\": "app/"
+    "authors": [
+        {
+            "name": "Olatunbosun Egberinde",
+            "email": "bosunski@gmail.com"
         }
-    },
-    "scripts": {
-        "test": "echo \"No tests yet!\""
-    }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {}
 }
